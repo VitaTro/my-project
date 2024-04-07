@@ -1,0 +1,23 @@
+.container {
+    max-width: 1280px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+}
+.header {
+    display: flex;
+}
+.logo {
+    width: 150px;
+    height: 150px; 
+    margin-left: 350px;
+}
+.list-header {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}

@@ -1,16 +1,13 @@
+import Logo from "./Logo/Logo";
+import Search from "./Search/Search";
+
+
 export const App = () => {
+ 
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      < Logo />
+      <Search />
+    </>
   );
 };

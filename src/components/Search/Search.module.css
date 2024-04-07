@@ -1,0 +1,64 @@
+.search-form {
+  display: flex;
+   position: relative;
+   box-sizing: border-box;
+   height: 50px;
+}
+.search-form input {
+  margin-left: 350px;
+  
+  width: 550px;
+  height: 20px;
+  padding: 10px 40px 10px 10px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.submit-button {
+  position: absolute;
+  left: 75%;
+  top: 10%;
+  height: 30px;
+  width: 30px;
+  
+  fill: #454648;
+}
+.submit-button:hover {
+  color:#454648;
+}
+
+.btn {
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: transparent;
+ fill: #31D0AA;
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+
+.is-active {
+  color: #ffffff;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #454648;
+
+
+}
+.svg {
+  width: 15px;
+  height: 15px;
+  fill: violet;
+}
+
+
+.is-visible {
+  display: flex;
+}
